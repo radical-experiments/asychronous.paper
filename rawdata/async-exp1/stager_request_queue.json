@@ -1,0 +1,17 @@
+{
+    "bulk_size": 0,
+    "channel": "stager_request_queue",
+    "cmgr": "cmgr.0000",
+    "heartbeat": {
+        "addr_pub": "tcp://10.134.0.33:38625",
+        "addr_sub": "tcp://10.134.0.33:40731",
+        "interval": 1.0,
+        "timeout": 60.0
+    },
+    "kind": "queue",
+    "log_level": "error",
+    "path": "/autofs/nccs-svm1_home1/pascuzzi/radical/test/paper-async-exp1/re.session.login3.pascuzzi.019220.0001",
+    "sid": "re.session.login3.pascuzzi.019220.0001",
+    "stall_hwm": 1,
+    "uid": "stager_request_queue"
+}

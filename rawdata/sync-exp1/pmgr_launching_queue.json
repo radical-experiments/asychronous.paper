@@ -1,0 +1,17 @@
+{
+    "bulk_size": 0,
+    "channel": "pmgr_launching_queue",
+    "cmgr": "cmgr.0001",
+    "heartbeat": {
+        "addr_pub": "tcp://10.134.0.33:35881",
+        "addr_sub": "tcp://10.134.0.33:35163",
+        "interval": 1.0,
+        "timeout": 60.0
+    },
+    "kind": "queue",
+    "log_level": "error",
+    "path": "/autofs/nccs-svm1_home1/pascuzzi/radical/test/paper-seq-exp1/re.session.login3.pascuzzi.019220.0000",
+    "sid": "re.session.login3.pascuzzi.019220.0000",
+    "stall_hwm": 0,
+    "uid": "pmgr_launching_queue"
+}

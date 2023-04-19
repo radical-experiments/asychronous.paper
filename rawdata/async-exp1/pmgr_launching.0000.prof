@@ -1,0 +1,14 @@
+#time,event,comp,thread,uid,state,msg
+1660661860.5640817,sync_abs,pmgr_launching.0000,MainThread,,,login3.summit.olcf.ornl.gov:10.134.0.33:1660661860.5631118:1660661860.5867498:ntp
+1660661860.5654149,comp_start,pmgr_launching.0000,MainThread,pmgr_launching.0000,,
+#time,event,comp,thread,uid,state,msg
+1660661860.7590442,sync_abs,pmgr_launching.0000,MainThread,,,login3.summit.olcf.ornl.gov:10.134.0.33:1660661860.75825:1660661860.781888:ntp
+1660661860.7591126,init1,pmgr_launching.0000,MainThread,pmgr_launching.0000,,/autofs/nccs-svm1_home1/pascuzzi/radical/test/paper-async-exp1/re.session.login3.pascuzzi.019220.0001
+1660661860.8316417,component_init,pmgr_launching.0000,Thread-1,,,
+1660661863.2387388,get,pmgr_launching.0000,Thread-1,pilot.0000,PMGR_LAUNCHING_PENDING,
+1660661863.2387788,advance,pmgr_launching.0000,Thread-1,pilot.0000,PMGR_LAUNCHING,
+1660661864.5190372,staging_in_start,pmgr_launching.0000,Thread-1,pilot.0000,,
+1660661869.5484915,staging_in_stop,pmgr_launching.0000,Thread-1,pilot.0000,,
+1660661869.5485196,submission_start,pmgr_launching.0000,Thread-1,pilot.0000,,
+1660661871.4529920,submission_stop,pmgr_launching.0000,Thread-1,pilot.0000,,
+1660661871.4530332,advance,pmgr_launching.0000,Thread-1,pilot.0000,PMGR_ACTIVE_PENDING,

@@ -1,0 +1,240 @@
+# -------------------------------------------------------------------
+bootstrap_0 running on host: batch1.summit.olcf.ornl.gov.
+bootstrap_0 started as     : './bootstrap_0.sh -p pilot.0000 -s re.session.login3.pascuzzi.019220.0001 -m local -r local -b anaconda -g default -v /ccs/home/pascuzzi/.conda/envs/rct-python3.7 -y 120 -z re.session.login3.pascuzzi.019220.0001.pmgr_launching.0000.tgz -e module unload xl -e module unload xalt -e module unload spectrum-mpi -e module load   gcc/9.1.0 -e module load   libzmq/4.3.3 -e module load   python/3.8-anaconda3 -e module list -w module unload xl -w module unload xalt -w module unload spectrum-mpi -w module load   gcc/9.1.0 -w module load   libzmq/4.3.3 -w module load   python/3.8-anaconda3 -w ulimit -u 65536'
+safe environment of bootstrap_0
+bootstrap_0 stderr redirected to stdout
+
+# -------------------------------------------------------------------
+#
+# Running pre_bootstrap_0 command
+# cmd: module unload xl
+#
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) spectrum-mpi/10.4.0.3-20210112
+
+#
+# SUCCESS
+#
+# -------------------------------------------------------------------
+
+# -------------------------------------------------------------------
+#
+# Running pre_bootstrap_0 command
+# cmd: module unload xalt
+#
+#
+# SUCCESS
+#
+# -------------------------------------------------------------------
+
+# -------------------------------------------------------------------
+#
+# Running pre_bootstrap_0 command
+# cmd: module unload spectrum-mpi
+#
+#
+# SUCCESS
+#
+# -------------------------------------------------------------------
+
+# -------------------------------------------------------------------
+#
+# Running pre_bootstrap_0 command
+# cmd: module load   gcc/9.1.0
+#
+#
+# SUCCESS
+#
+# -------------------------------------------------------------------
+
+# -------------------------------------------------------------------
+#
+# Running pre_bootstrap_0 command
+# cmd: module load   libzmq/4.3.3
+#
+#
+# SUCCESS
+#
+# -------------------------------------------------------------------
+
+# -------------------------------------------------------------------
+#
+# Running pre_bootstrap_0 command
+# cmd: module load   python/3.8-anaconda3
+#
+
+The following have been reloaded with a version change:
+  1) python/3.7-anaconda3 => python/3.8-anaconda3
+
+#
+# SUCCESS
+#
+# -------------------------------------------------------------------
+
+# -------------------------------------------------------------------
+#
+# Running pre_bootstrap_0 command
+# cmd: module list
+#
+
+Currently Loaded Modules:
+  1) lsf-tools/2.0                7) cuda/11.4.2
+  2) hsi/5.0.2.p5                 8) cmake/3.23.2
+  3) darshan-runtime/3.3.0-lite   9) gcc/9.1.0
+  4) DefApps                     10) libzmq/4.3.3
+  5) nsight-compute/2021.2.1     11) python/3.8-anaconda3
+  6) nsight-systems/2021.3.1.54
+
+ 
+
+#
+# SUCCESS
+#
+# -------------------------------------------------------------------
+# -------------------------------------------------------------------
+# untar sandbox
+# -------------------------------------------------------------------
+pilot.0000/
+pilot.0000/pilot.0000.prof.tgz
+pilot.0000/pilot.0000.log.tgz
+# -------------------------------------------------------------------
+# -------------------------------------------------------------------
+# Touching output tarballs
+# -------------------------------------------------------------------
+create gtod
+1660672061.0000,sync_abs,bootstrap_0,MainThread,pilot.0000,PMGR_ACTIVE_PENDING,batch1:10.134.0.41:1660672061:1660672061:1660672061
+1660672061.0000,bootstrap_0_start,bootstrap_0,MainThread,pilot.0000,PMGR_ACTIVE_PENDING,
+VIRTENV           : /ccs/home/pascuzzi/.conda/envs/rct-python3.7
+VIRTENV normalized: /autofs/nccs-svm1_home1/pascuzzi/.conda/envs/rct-python3.7
+PYTHON            : /sw/summit/python/3.8/anaconda3/2020.07-rhel8/bin/python
+PYTHON_VERSION    : 3.8
+PIP               : /sw/summit/python/3.8/anaconda3/2020.07-rhel8/bin/python -m pip
+PIP version       : pip 20.1.1 from /sw/summit/python/3.8/anaconda3/2020.07-rhel8/lib/python3.8/site-packages/pip (python 3.8)
+1660672062.0000,ve_setup_start,bootstrap_0,MainThread,pilot.0000,PMGR_ACTIVE_PENDING,
+virtenv_create    : FALSE
+virtenv_update    : FALSE
+rp install sources: 
+rp install target : SANDBOX
+rp install lock   : FALSE
+do not create virtenv /autofs/nccs-svm1_home1/pascuzzi/.conda/envs/rct-python3.7
+1660672062.0000,ve_activate_start,bootstrap_0,MainThread,pilot.0000,PMGR_ACTIVE_PENDING,
+VIRTENV activated : /autofs/nccs-svm1_home1/pascuzzi/.conda/envs/rct-python3.7
+RP_PATH           : /autofs/nccs-svm1_home1/pascuzzi/.conda/envs/rct-python3.7/bin
+PYTHON            : /autofs/nccs-svm1_home1/pascuzzi/.conda/envs/rct-python3.7/bin/python
+PYTHON_VERSION    : 3.7
+PIP               : /autofs/nccs-svm1_home1/pascuzzi/.conda/envs/rct-python3.7/bin/python -m pip
+PIP version       : pip 22.1.2 from /autofs/nccs-svm1_home1/pascuzzi/.conda/envs/rct-python3.7/lib/python3.7/site-packages/pip (python 3.7)
+VE_MOD_PREFIX init: /autofs/nccs-svm1_home1/pascuzzi/.conda/envs/rct-python3.7/lib/python3.7/site-packages
+VE_MOD_PREFIX     : /autofs/nccs-svm1_home1/pascuzzi/.conda/envs/rct-python3.7/lib/python3.7/site-packages
+RP_MOD_PREFIX     : /autofs/nccs-svm1_home1/pascuzzi/.conda/envs/rct-python3.7/rp_install/lib/python3.7/site-packages
+VE_PYTHONPATH     : 
+1660672064.0000,ve_activate_stop,bootstrap_0,MainThread,pilot.0000,PMGR_ACTIVE_PENDING,
+do not update virtenv /autofs/nccs-svm1_home1/pascuzzi/.conda/envs/rct-python3.7
+1660672064.0000,rp_install_start,bootstrap_0,MainThread,pilot.0000,PMGR_ACTIVE_PENDING,
+Using RADICAL-Pilot install sources ''
+VE_MOD_PREFIX     : /autofs/nccs-svm1_home1/pascuzzi/.conda/envs/rct-python3.7/lib/python3.7/site-packages
+VIRTENV           : /autofs/nccs-svm1_home1/pascuzzi/.conda/envs/rct-python3.7
+SANDBOX           : /gpfs/alpine/scratch/pascuzzi/bip216/radical.pilot.sandbox/re.session.login3.pascuzzi.019220.0001/pilot.0000
+VE_LOC_PREFIX     : 
+using local install tree
+PYTHONPATH        : /gpfs/alpine/scratch/pascuzzi/bip216/radical.pilot.sandbox/re.session.login3.pascuzzi.019220.0001/pilot.0000/rp_install/lib/python3.7/site-packages::
+RP_LOC_PREFIX     : /gpfs/alpine/scratch/pascuzzi/bip216/radical.pilot.sandbox/re.session.login3.pascuzzi.019220.0001/pilot.0000/rp_install/lib/python3.7/site-packages
+RADICAL_MOD_PREFIX: /gpfs/alpine/scratch/pascuzzi/bip216/radical.pilot.sandbox/re.session.login3.pascuzzi.019220.0001/pilot.0000/rp_install/lib/python3.7/site-packages/radical/
+1660672064.0000,rp_install_stop,bootstrap_0,MainThread,pilot.0000,PMGR_ACTIVE_PENDING,
+1660672064.0000,ve_setup_stop,bootstrap_0,MainThread,pilot.0000,PMGR_ACTIVE_PENDING,
+verify python viability: /autofs/nccs-svm1_home1/pascuzzi/.conda/envs/rct-python3.7/bin/python ... ok
+verify module viability: radical.pilot   ... ok
+verify module viability: radical.saga    ... ok
+verify module viability: radical.utils   ... ok
+verify module viability: pymongo         ... ok
+verify module viability: colorama        ... ok
+verify module viability: ntplib          ... ok
+verify module viability: zmq             ... ok
+verify module viability: netifaces       ... ok
+verify module viability: setproctitle    ... ok
+verify module viability: msgpack         ... ok
+verify module viability: regex           ... ok
+
+---------------------------------------------------------------------
+
+Python 3.7.13 (/autofs/nccs-svm1_home1/pascuzzi/.conda/envs/rct-python3.7/bin/python)
+PYTHONPATH: /gpfs/alpine/scratch/pascuzzi/bip216/radical.pilot.sandbox/re.session.login3.pascuzzi.019220.0001/pilot.0000/rp_install/lib/python3.7/site-packages::
+
+  python               : /autofs/nccs-svm1_home1/pascuzzi/.conda/envs/rct-python3.7/bin/python3
+  pythonpath           : /gpfs/alpine/scratch/pascuzzi/bip216/radical.pilot.sandbox/re.session.login3.pascuzzi.019220.0001/pilot.0000/rp_install/lib/python3.7/site-packages::
+  version              : 3.7.13
+  virtualenv           : rct-python3.7
+
+  radical.analytics    : 1.6.7
+  radical.entk         : 1.11.0
+  radical.gtod         : 1.6.7
+  radical.pilot        : 1.9.2-v1.9.2@HEAD-detached-at-v1.9.2
+  radical.saga         : 1.11.1
+  radical.utils        : 1.11.0
+
+RU: 1.11.0 /autofs/nccs-svm1_home1/pascuzzi/.conda/envs/rct-python3.7/lib/python3.7/site-packages/radical/utils/__init__.py
+RS: 1.11.1 /autofs/nccs-svm1_home1/pascuzzi/.conda/envs/rct-python3.7/lib/python3.7/site-packages/radical/saga/__init__.py
+RP: 1.9.2-v1.9.2@HEAD-detached-at-v1.9.2 /autofs/nccs-svm1_home1/pascuzzi/.conda/envs/rct-python3.7/lib/python3.7/site-packages/radical/pilot/__init__.py
+install ok!
+
+---------------------------------------------------------------------
+
+
+# -------------------------------------------------------------------
+# Launching radical-pilot-agent 
+# CMDLINE: /autofs/nccs-svm1_home1/pascuzzi/.conda/envs/rct-python3.7/bin/python /autofs/nccs-svm1_home1/pascuzzi/.conda/envs/rct-python3.7/bin/radical-pilot-agent
+ntphost: 46.101.140.169
+ping: socket: Operation not permitted
+1660672068.5925,bootstrap_0_ok,bootstrap_0,MainThread,pilot.0000,PMGR_ACTIVE_PENDING,
+..........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................1660674788.6244,killme,bootstrap_0,MainThread,pilot.0000,PMGR_ACTIVE_PENDING,2022-08-16 14:33:08.621
+1660674788.6340,sigterm,bootstrap_0,MainThread,pilot.0000,PMGR_ACTIVE_PENDING,2022-08-16 14:33:08.631
+send SIGTERM to 2335306 (2333907)
+COND start 'kill -0  2335306' (I: 1 T: 30)
+./bootstrap_0.sh: line 310: 2335306 Terminated              ./bootstrap_2.sh 'agent.0' > agent.0.bootstrap_2.out 2> agent.0.bootstrap_2.err
+./bootstrap_0.sh: line 323: kill: (2335306) - No such process
+COND failed (1)
+agent 2335306 is final
+agent 2335306 is final (143)
+1660674789.6506,agent_final,bootstrap_0,MainThread,pilot.0000,PMGR_ACTIVE_PENDING,2335306:143 2022-08-16 14:33:09.648
+
+# -------------------------------------------------------------------
+# CLEANUP: 
+#
+1660674789.6574,cleanup_start,bootstrap_0,MainThread,pilot.0000,PMGR_ACTIVE_PENDING,
+1660674789.6616,cleanup_stop,bootstrap_0,MainThread,pilot.0000,PMGR_ACTIVE_PENDING,
+#
+# -------------------------------------------------------------------
+
+# -------------------------------------------------------------------
+#
+# Mark final profiling entry ...
+1660674789.6753,bootstrap_0_stop,bootstrap_0,MainThread,pilot.0000,PMGR_ACTIVE_PENDING,
+1660674789.6794,END,bootstrap_0,MainThread,pilot.0000,PMGR_ACTIVE_PENDING,
+#
+# -------------------------------------------------------------------
+
+# -------------------------------------------------------------------
+#
+# We wait for some seconds for the FS to flush profiles.
+# Success is assumed when all profiles end with a 'END' event.
+#
+# -------------------------------------------------------------------
+delay profile sync @ 1: 29 != 7
+delay profile sync @ 2: 29 != 7
+delay profile sync @ 3: 29 != 7
+delay profile sync @ 4: 29 != 7
+abort profile sync @ 5: 29 != 7
+nprofs 29 =? nend 7
+Tue Aug 16 14:33:13 EDT 2022
+
+# -------------------------------------------------------------------
+#
+# Tarring profiles ...
+-rw-rw-r-- 1 pascuzzi pascuzzi 129929 Aug 16 14:33 pilot.0000.prof.tgz
+#
+# -------------------------------------------------------------------
+
+# -------------------------------------------------------------------
+#
+# Tarring logfiles ...

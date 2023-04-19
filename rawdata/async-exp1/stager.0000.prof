@@ -1,0 +1,16 @@
+#time,event,comp,thread,uid,state,msg
+1660661856.4984982,sync_abs,stager.0000,MainThread,,,login3.summit.olcf.ornl.gov:10.134.0.33:1660661856.4975684:1660661856.5212064:ntp
+1660661856.4998369,comp_start,stager.0000,MainThread,stager.0000,,
+#time,event,comp,thread,uid,state,msg
+1660661856.6954691,sync_abs,stager.0000,MainThread,,,login3.summit.olcf.ornl.gov:10.134.0.33:1660661856.6945984:1660661856.7182364:ntp
+1660661856.6955390,init1,stager.0000,MainThread,stager.0000,,/autofs/nccs-svm1_home1/pascuzzi/radical/test/paper-async-exp1/re.session.login3.pascuzzi.019220.0001
+1660661856.7973926,component_init,stager.0000,Thread-1,,,
+1660661864.6103940,get,stager.0000,Thread-1,sd.0000,NEW,
+1660661864.6106677,get,stager.0000,Thread-1,sd.0001,NEW,
+1660661864.6107056,staging_start,stager.0000,Thread-1,,,sd.0000
+1660661867.3878090,staging_stop,stager.0000,Thread-1,,,sd.0000
+1660661867.3878536,staging_start,stager.0000,Thread-1,,,sd.0001
+1660661867.8023684,staging_stop,stager.0000,Thread-1,,,sd.0001
+1660661868.6163561,get,stager.0000,Thread-1,sd.0002,NEW,
+1660661868.6164050,staging_start,stager.0000,Thread-1,,,sd.0002
+1660661868.8284009,staging_stop,stager.0000,Thread-1,,,sd.0002
