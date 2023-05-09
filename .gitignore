@@ -129,5 +129,5 @@ dmypy.json
 .pyre/
 
 # cscope and ctags
-*.cscope
-*.tags
+src/cscope.out
+src/tags
