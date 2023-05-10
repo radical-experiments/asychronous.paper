@@ -29,7 +29,9 @@ Synchronous Execution setup:
 
 
 DG1:
-Asynchronous Execution setup:
+Asynchronous Execution setup: 
+Total: 768 Cores and 96 GPU (6 GPU per node)
+
 | Pipeline | Stage | NumTasks | Time | CPU | GPU |
 | --- | --- | --- | --- | --- | --- |
 | 0000 | T0 | 96 | 766.7707836629639 | 16 | 1 |
