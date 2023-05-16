@@ -1,6 +1,0 @@
-#time,event,comp,thread,uid,state,msg
-1660660574.7940211,sync_abs,stager_request_queue.get.0000,Thread-1,,,login3.summit.olcf.ornl.gov:10.134.0.33:1660660574.7931037:1660660574.8727696:ntp
-#time,event,comp,thread,uid,state,msg
-1660660574.7940211,sync_abs,stager_request_queue.get.0000,Thread-1,,,login3.summit.olcf.ornl.gov:10.134.0.33:1660660574.7931037:1660660574.8727696:ntp
-#time,event,comp,thread,uid,state,msg
-1660660574.7940211,sync_abs,stager_request_queue.get.0000,Thread-1,,,login3.summit.olcf.ornl.gov:10.134.0.33:1660660574.7931037:1660660574.8727696:ntp

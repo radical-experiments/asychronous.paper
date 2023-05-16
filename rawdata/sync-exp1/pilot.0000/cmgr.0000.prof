@@ -1,3 +1,0 @@
-#time,event,comp,thread,uid,state,msg
-1660671175.8861787,sync_abs,cmgr.0000,MainThread,,,batch1.summit.olcf.ornl.gov:10.134.0.41:1660671175.885951:1660671175.959696:ntp
-1660671175.8865459,init2,cmgr.0000,MainThread,cmgr.0000,,/gpfs/alpine/bip216/scratch/pascuzzi/radical.pilot.sandbox/re.session.login3.pascuzzi.019220.0000/pilot.0000

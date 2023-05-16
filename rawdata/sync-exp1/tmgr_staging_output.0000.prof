@@ -1,7 +1,0 @@
-#time,event,comp,thread,uid,state,msg
-1660671189.9503031,sync_abs,tmgr_staging_output.0000,MainThread,,,login3.summit.olcf.ornl.gov:10.134.0.33:1660671189.94952:1660671189.9725351:ntp
-1660671189.9518485,comp_start,tmgr_staging_output.0000,MainThread,tmgr_staging_output.0000,,
-#time,event,comp,thread,uid,state,msg
-1660671190.1742253,sync_abs,tmgr_staging_output.0000,MainThread,,,login3.summit.olcf.ornl.gov:10.134.0.33:1660671190.1735013:1660671190.1965163:ntp
-1660671190.1743038,init1,tmgr_staging_output.0000,MainThread,tmgr_staging_output.0000,,/autofs/nccs-svm1_home1/pascuzzi/radical/test/paper-seq-exp1/re.session.login3.pascuzzi.019220.0000
-1660671190.1797729,component_init,tmgr_staging_output.0000,Thread-1,,,

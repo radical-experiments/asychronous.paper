@@ -1,8 +1,0 @@
-#time,event,comp,thread,uid,state,msg
-1660661861.8814595,sync_abs,pmgr_launching_queue.put.0000,MainThread,,,login3.summit.olcf.ornl.gov:10.134.0.33:1660661861.8803663:1660661861.9040043:ntp
-#time,event,comp,thread,uid,state,msg
-1660661861.8814595,sync_abs,pmgr_launching_queue.put.0000,MainThread,,,login3.summit.olcf.ornl.gov:10.134.0.33:1660661861.8803663:1660661861.9040043:ntp
-#time,event,comp,thread,uid,state,msg
-1660661861.8814595,sync_abs,pmgr_launching_queue.put.0000,MainThread,,,login3.summit.olcf.ornl.gov:10.134.0.33:1660661861.8803663:1660661861.9040043:ntp
-#time,event,comp,thread,uid,state,msg
-1660661861.8814595,sync_abs,pmgr_launching_queue.put.0000,MainThread,,,login3.summit.olcf.ornl.gov:10.134.0.33:1660661861.8803663:1660661861.9040043:ntp

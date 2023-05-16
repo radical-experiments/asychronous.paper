@@ -1,3 +1,0 @@
-#time,event,comp,thread,uid,state,msg
-1660661854.0835390,sync_abs,state_pubsub,MainThread,,,login3.summit.olcf.ornl.gov:10.134.0.33:1660661854.082693:1660661854.106331:ntp
-1660661854.0864894,bridge_start,state_pubsub,MainThread,state_pubsub,,
